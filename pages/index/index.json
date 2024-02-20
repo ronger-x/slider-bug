@@ -1,0 +1,12 @@
+{
+  "component": true,
+  "usingComponents": {
+    "t-col": "tdesign-miniprogram/col/col",
+    "t-row": "tdesign-miniprogram/row/row",
+    "t-button": "tdesign-miniprogram/button/button",
+    "t-popup": "tdesign-miniprogram/popup/popup",
+    "t-slider": "tdesign-miniprogram/slider/slider"
+
+  },
+  "pageOrientation": "landscape"
+}

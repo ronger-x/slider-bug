@@ -1,0 +1,44 @@
+<view style="padding-left: 40rpx;">
+    <t-row>
+        <t-col span="10">
+            <t-col span="24">
+            </t-col>
+            <t-col span="24">
+                <view style="display: flex;justify-content: left;padding-top: 10px;">
+                    <t-slider vertical value="{{pointY}}" theme="capsule" t-class="vertical-slider"
+                              step="{{step}}" min="{{min}}" max="{{max}}"
+                              bind:change="handlePointYChange" bind:dragend="handlePointYChangeEnd"/>
+                </view>
+            </t-col>
+        </t-col>
+        <t-col span="12">
+            <t-col span="24">
+                <t-col span="8">
+                </t-col>
+                <t-col span="4">
+                    <t-button theme="primary" variant="outline" size="extra-small" icon="letters-a" shape="circle"
+                              aria-label="A" bind:tap="clickButtonA"></t-button>
+                </t-col>
+                <t-col span="4">
+                    <t-button theme="primary" variant="outline" size="extra-small" icon="letters-b" shape="circle"
+                              aria-label="B" bind:tap="clickButtonB"></t-button>
+                </t-col>
+                <t-col span="4">
+                    <t-button theme="primary" variant="outline" size="extra-small" icon="letters-c" shape="circle"
+                              aria-label="C" bind:tap="clickButtonC"></t-button>
+                </t-col>
+                <t-col span="4">
+                    <t-button theme="primary" variant="outline" size="extra-small" icon="letters-d" shape="circle"
+                              aria-label="D" bind:tap="clickButtonD"></t-button>
+                </t-col>
+            </t-col>
+            <t-col span="24">
+                <view style="width: 300rpx;padding-top: 100rpx;">
+                    <t-slider value="{{pointX}}" theme="capsule"
+                              step="{{step}}" min="{{min}}" max="{{max}}"
+                              bind:change="handlePointXChange" bind:dragend="handlePointXChangeEnd"/>
+                </view>
+            </t-col>
+        </t-col>
+    </t-row>
+</view>

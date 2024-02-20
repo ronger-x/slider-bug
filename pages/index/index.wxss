@@ -1,0 +1,65 @@
+page {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.block {
+    /*background: #fff;*/
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-button--size-extra-small {
+    font-size: 14rpx !important;
+    padding-left: 8rpx !important;
+    padding-right: 8rpx !important;
+    height: 28rpx !important;
+    line-height: 28rpx !important;
+}
+
+.t-button--circle.t-button--size-extra-small {
+    width: 28rpx !important;
+}
+
+.t-button--size-extra-small .t-icon {
+    font-size: 18rpx !important;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 36rpx;
+}
+
+.title {
+    flex: 1;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16rpx;
+}
+
+.vip-card {
+    padding: 10rpx;
+    height: 40rpx;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 160px;
+    box-shadow: 1px 6px 9px #c3c2c2;
+}
+
+.vertical-slider {
+    height: 250rpx !important;
+}
+
+.t-slider__bar {
+    background-color: aqua !important;
+}
+
+.t-slider__line {
+    background-color: aqua !important;
+}
